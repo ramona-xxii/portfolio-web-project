@@ -1,0 +1,23 @@
+/* remove default styles for blank slate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  background-color: #1e1e1e;
+  color: #ccc;
+}
+
+.outer-layout{
+    display: flex;
+    flex-direction: row;
+}
+
+/* icon panel */
+.icon-panel{
+    display: flex;
+    flex-direction: column;
+}
