@@ -17,8 +17,8 @@
                 <a class="brand" href="#">RAMONA</a>
                 <!-- nav items -->
                  <div class="nav-items">
-                    <a href="#about" class="nav-link">ABOUT ME</a>
-                    <a href="#projects" class="nav-link">PROJECTS</a>
+                    <a href="#about-sctn" class="nav-link">ABOUT ME</a>
+                    <a href="#projects-sctn" class="nav-link">PROJECTS</a>
                     <button id="nav-contact-btn" type="button">CONTACT</button>
                  </div>
             </nav>
@@ -30,7 +30,7 @@
                     <p>Hi there, I'm</p>
                     <h1>Ramona!</h1>
                     <h2>CS student. Freelance developer. Got an idea?</h2>
-                    <div id="landing-btn-contaier">
+                    <div id="landing-btn-container">
                         <button id ="landing-cta-btn" type="button">Let's Build It!</button>
                     </div>
                 </section>
@@ -43,7 +43,7 @@
 
                 <!-- projects section -->
                 <section id="projects-sctn" class="section">
-                    
+                    <h1>Projects</h1>
                 </section>
 
                 <!-- contact section -->
