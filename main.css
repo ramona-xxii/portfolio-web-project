@@ -127,6 +127,7 @@ body {
 /************/
 .section {
   min-height: calc(100vh - 6.875rem);
+  scroll-margin-top: 6.875rem;
 }
 
 /*******************/
@@ -134,21 +135,23 @@ body {
 /*******************/
 #landing-sctn h1 {
   font-size: 6rem;
+  line-height: 1.1;
 }
 
 #landing-sctn h2 {
   font-size: 3rem;
+  line-height: 1.1;
 }
 
 #landing-sctn p {
   font-size: 1.5rem;
+  line-height: 1.1;
 }
 
 #landing-sctn {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 0.5rem;
 }
 
 #landing-cta-btn {
