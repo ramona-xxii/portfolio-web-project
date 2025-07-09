@@ -5,6 +5,7 @@
         <title>Ramona | Portfolio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
     </head>
@@ -49,6 +50,30 @@
                 <!-- contact section -->
                 <section id="contact-sctn" class="section">
                     <h1>Get In Touch!</h1>
+                    <!-- contact form -->
+                        <form action="." method="post" class="contact-form">
+                            <!-- name input -->
+                            <div class="input-group">
+                                <i class="bi bi-person form-icon"></i>
+                                <input type="text" name="name" placeholder="Name" required>
+                            </div>
+                            <!-- email input -->
+                            <div class="input-group">
+                                <i class="bi bi-envelope-at form-icon"></i>
+                                <input type="text" name="email" placeholder="Email" required>
+                            </div>
+                            <!-- phone # input -->
+                            <div class="input-group">
+                                <i class="bi bi-telephone form-icon"></i>
+                                <input type="text" name="phonenumber" placeholder="Phone Number">
+                            </div>
+                            <!-- message input -->
+                            <div class="input-group textarea-group">
+                                <i class="bi bi-chat-right form-icon mssg-icon"></i>
+                                <textarea name="message" placeholder="Message" required></textarea>
+                            </div>
+                            <button id="send-btn" type="submit">Send <i class="bi bi-send send-icon"></i></button>
+                        </form>
                     
                 </section>
             </div>
