@@ -14,9 +14,9 @@
   box-sizing: border-box;
 }
 
-/******************/
-/* heading styles */
-/******************/
+/***********************/
+/* base heading styles */
+/***********************/
 h1 {
   font-size: 3rem;
   font-weight: 600;
@@ -32,16 +32,22 @@ p {
   font-weight: 300;
 }
 
+/* base btn styles */
+button {
+  display: inline-block;
+  color: #1e1e1f;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 50px;
+  text-align: center;
+}
+
+
 /*******/
 /* msc */
 /*******/
 html {
   scroll-behavior: smooth;
-}
-
-button {
-  all: unset;
-  cursor: pointer;
 }
 
 /******************/
@@ -96,8 +102,9 @@ button {
   border-radius: 50px;
   border-style: solid;
   border-color: #c2cdff;
-  padding: 1rem;
+  padding: 0.75rem;
   margin: 0 2rem;
+  width: fit-content;
 }
 
 #nav-contact-btn:hover {
@@ -152,12 +159,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 0.5rem;
 }
 
 #landing-cta-btn {
   background-color: #c2cdff;
   color: #1e1e1f;
-  padding: 0.5rem;
+  padding: 0.75rem;
   border-radius: 50px;
   border-style: solid;
   border-color: #c2cdff;
@@ -170,4 +178,64 @@ body {
   color: #efe9e9;
 }
 
+/*******************/
+/* contact section */
+/*******************/
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  margin-top: 2rem;
+  gap: 1rem;
+  padding: 2.5rem;
+  border-radius: 8px;
+}
 
+.input-group {
+  display: flex;
+  align-items: center; /* vertically center items */
+  gap: 1rem;
+
+}
+
+.input-group input, 
+.input-group textarea {
+  flex: 1;
+  border: none;
+  font-size: 1.25rem;
+  outline: none;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+.input-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.form-icon {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  color: #efe9e9;
+  min-width: 1.5rem;
+}
+
+.textarea-group {
+  align-items: flex-start;
+}
+
+.mssg-icon {
+  padding-top: 0.25rem;
+}
+
+#send-btn {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+  width: fit-content;
+  align-self: center;
+}
+
+.send-icon {
+  color: #1e1e1f;
+}
