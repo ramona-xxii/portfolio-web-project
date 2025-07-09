@@ -39,6 +39,13 @@
                 <!-- about section -->
                 <section id="about-sctn" class="section">
                     <h1>About Me</h1>
+                    <h2>Technical Skills</h2>
+                    <p>- HTML</p>
+                    <p>- CSS</p>
+                    <p>- PHP</p>
+                    <p>- JavaScript</p>
+                    <p>- Python</p>
+                    <p>- Java</p>
 
                 </section>
 
