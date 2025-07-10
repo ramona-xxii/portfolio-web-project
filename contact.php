@@ -2,28 +2,30 @@
 if($_SERVER["REQUEST_METHOD"] === "POST"){
 
     // sanitize inputs
-    $name = htmlspecialchars(trim($_POST["name"]));
-    $email = htmlspecialchars(trim($_POST["email"]));
-    $phonenumber = htmlspecialchars(trim($_POST["phonenumber"]));
-    $message = htmlspecialchars(trim($_POST["message"]));
+    $name = trim(filter_input(INPUT_POST, "name", FILTER_SANITIZE_FULL_SPECIAL_CHARS));
+    $email = trim(filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL));
+    $phonenumber = trim(preg_replace("/[^0-9]/", "", $_POST["phonenumber"] ?? ""));    
 
     // validate name
-        // not empty
-        // not null
-        // no numbers
-    if($name === "" || $name === NULL){
-        // invalid name
+    function isValidName($name){
+        return !empty($name);
     }
 
-    // auto add dashes for phone number
+    // validate phone number
+    function isValidPhoneNumber($phonenumber){
+       return preg_match("/^\d{10}$/", $phonenumber);
+    }
+
 
     // validate email
-    if(!(filter_var($email, FILTER_VALIDATE_EMAIL))){
-        // invalid email error
+    function isValidEmail($email){
+        return filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
+
     }
 
     // validate message
-        // not empty
-        // not null
+    function isValidMessage($message){
+        return !empty($message);
+    }
 
 }
