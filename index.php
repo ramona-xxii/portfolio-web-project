@@ -85,6 +85,11 @@
                     
                 </section>
             </div>
+
+            <!-- footer -->
+            <footer>
+                <p> &copy Ramona McBrearty </p>
+            </footer>
             
 
             
