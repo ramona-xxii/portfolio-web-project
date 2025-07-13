@@ -96,22 +96,6 @@ html {
   border-bottom: 2px solid #92a5ff;
 }
 
-/* contact button */
-#nav-contact-btn {
-  color: #1e1e1f;
-  background-color: #c2cdff;
-  border-color: #c2cdff;
-  margin: 0 2rem;
-  width: fit-content;
-  font-size: 1.25rem;
-}
-
-#nav-contact-btn:hover {
-  background-color: #92a5ff;
-  border-color: #92a5ff;
-  color: #efe9e9;
-}
-
 /**********/
 /*  body  */
 /**********/
@@ -191,13 +175,18 @@ body {
   display: flex;
   align-items: center; /* vertically center items */
   gap: 1rem;
+}
 
+.input-group input:focus,
+.input-group textarea:focus {
+  border: 2px solid #92a5ff;
+  box-shadow: 0 0 5px #92a5ff;
 }
 
 .input-group input, 
 .input-group textarea {
   flex: 1;
-  border: none;
+  border: 2px solid transparent;
   font-size: 1rem;
   outline: none;
   padding: 0.75rem;
@@ -234,6 +223,13 @@ body {
 
 .send-icon {
   color: #1e1e1f;
-  font-size: 0.75rem;
+  font-size: inherit;
   display: inline-block;
+}
+
+/**********/
+/* footer */
+/**********/
+footer {
+  display: block;
 }
