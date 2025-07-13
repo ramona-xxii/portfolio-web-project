@@ -40,6 +40,8 @@ button {
   border: 2px solid;
   border-radius: 50px;
   text-align: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
 }
 
 
@@ -98,13 +100,10 @@ html {
 #nav-contact-btn {
   color: #1e1e1f;
   background-color: #c2cdff;
-  font-size: 1.25rem;
-  border-radius: 50px;
-  border-style: solid;
   border-color: #c2cdff;
-  padding: 0.75rem;
   margin: 0 2rem;
   width: fit-content;
+  font-size: 1.25rem;
 }
 
 #nav-contact-btn:hover {
@@ -165,9 +164,6 @@ body {
 #landing-cta-btn {
   background-color: #c2cdff;
   color: #1e1e1f;
-  padding: 0.75rem;
-  border-radius: 50px;
-  border-style: solid;
   border-color: #c2cdff;
   font-size: 1.5rem;
 }
@@ -202,7 +198,7 @@ body {
 .input-group textarea {
   flex: 1;
   border: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   outline: none;
   padding: 0.75rem;
   border-radius: 8px;
@@ -230,7 +226,7 @@ body {
 }
 
 #send-btn {
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 0.75rem 1.5rem;
   width: fit-content;
   align-self: center;
@@ -238,4 +234,6 @@ body {
 
 .send-icon {
   color: #1e1e1f;
+  font-size: 0.75rem;
+  display: inline-block;
 }
