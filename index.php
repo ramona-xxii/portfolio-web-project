@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
-        <script src="js/contact.js"></script>
     </head>
     <body>
         <main>
@@ -21,7 +20,7 @@
                  <div class="nav-items">
                     <a href="#about-sctn" class="nav-link">ABOUT ME</a>
                     <a href="#projects-sctn" class="nav-link">PROJECTS</a>
-                    <button id="nav-contact-btn" type="button">CONTACT</button>
+                    <a href="#contact-sctn" class="nav-link">CONTACT</a>
                  </div>
             </nav>
             
@@ -88,12 +87,14 @@
 
             <!-- footer -->
             <footer>
-                <p> &copy Ramona McBrearty </p>
+                <p> &copy; <span id="year"></span> Ramona McBrearty </p>
             </footer>
             
-
-            
         </main>
+
+        <!-- javascript file linking -->
+        <script src="js/footer.js"></script>
+        <script src="js/contact.js"></script>
     </body>
     
 </html>
