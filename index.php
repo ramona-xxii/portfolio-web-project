@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
+        <script src="js/contact.js"></script>
     </head>
     <body>
         <main>
@@ -62,22 +63,22 @@
                             <!-- name input -->
                             <div class="input-group">
                                 <i class="bi bi-person form-icon"></i>
-                                <input type="text" name="name" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="name" required>
                             </div>
                             <!-- email input -->
                             <div class="input-group">
                                 <i class="bi bi-envelope-at form-icon"></i>
-                                <input type="text" name="email" placeholder="Email" required>
+                                <input type="text" name="email" placeholder="email" required>
                             </div>
                             <!-- phone # input -->
                             <div class="input-group">
                                 <i class="bi bi-telephone form-icon"></i>
-                                <input type="text" name="phonenumber" placeholder="Phone Number">
+                                <input type="text" id="phonenumber" name="phonenumber" placeholder="phone number">
                             </div>
                             <!-- message input -->
                             <div class="input-group textarea-group">
                                 <i class="bi bi-chat-right form-icon mssg-icon"></i>
-                                <textarea name="message" placeholder="Message" required></textarea>
+                                <textarea name="message" placeholder="message" required></textarea>
                             </div>
                             <button id="send-btn" type="submit">Send <i class="bi bi-send send-icon"></i></button>
                         </form>
