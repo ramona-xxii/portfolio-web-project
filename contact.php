@@ -16,7 +16,6 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
        return preg_match("/^\d{10}$/", $phonenumber);
     }
 
-
     // validate email
     function isValidEmail($email){
         return filter_var($email, FILTER_VALIDATE_EMAIL) !== false;
