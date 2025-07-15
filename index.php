@@ -46,7 +46,6 @@
                     <p>- JavaScript</p>
                     <p>- Python</p>
                     <p>- Java</p>
-
                 </section>
 
                 <!-- projects section -->
@@ -87,7 +86,28 @@
 
             <!-- footer -->
             <footer>
-                <p> &copy; <span id="year"></span> Ramona McBrearty </p>
+                <div class="footer-content">
+                    <div id="footer-left">
+                        <h2>RM_Dev</h2>
+                        <p>Freelance Fullstack Development</p>
+                        <div class="footer-icon-group">
+                            <i class="bi bi-github footer-icon"></i>
+                            <i class="bi bi-linkedin footer-icon"></i>
+                        </div>
+                    </div>
+                    <div id="footer-right">
+                        <!-- footer navigation list -->
+                        <ul id="footer-nav-list">
+                            <li><a href="#" class="footer-nav-link">HOME</a></li>
+                            <li><a href="#about-sctn" class="footer-nav-link">ABOUT ME</a></li>
+                            <li><a href="#projects-sctn" class="footer-nav-link">PROJECTS</a></li>
+                            <li><a href="#contact-sctn" class="footer-nav-link">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="footer-bottom">
+                    <p> &copy; <span id="year"></span> Ramona McBrearty</p>
+                </div>
             </footer>
             
         </main>
