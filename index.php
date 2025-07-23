@@ -39,13 +39,10 @@
                 <!-- about section -->
                 <section id="about-sctn" class="section">
                     <h1>About Me</h1>
-                    <h2>Technical Skills</h2>
-                    <p>- HTML</p>
-                    <p>- CSS</p>
-                    <p>- PHP</p>
-                    <p>- JavaScript</p>
-                    <p>- Python</p>
-                    <p>- Java</p>
+                    <h2 id="about-subtitle">I'm a 
+                        <span id="rotating-subtitle"></span>
+                        <span class="cursor typing">&nbsp;</span>
+                    </h2>
                 </section>
 
                 <!-- projects section -->
@@ -56,27 +53,28 @@
                 <!-- contact section -->
                 <section id="contact-sctn" class="section">
                     <h1>Get In Touch!</h1>
+                    <p>Fill out the form below and I'll get back to you ASAP!</p>
                     <!-- contact form -->
                         <form action="." method="post" class="contact-form">
                             <!-- name input -->
                             <div class="input-group">
                                 <i class="bi bi-person form-icon"></i>
-                                <input type="text" name="name" placeholder="name" required>
+                                <input type="text" name="name" placeholder="name*" required>
                             </div>
                             <!-- email input -->
                             <div class="input-group">
                                 <i class="bi bi-envelope-at form-icon"></i>
-                                <input type="text" name="email" placeholder="email" required>
+                                <input type="text" name="email" placeholder="email*" required>
                             </div>
                             <!-- phone # input -->
                             <div class="input-group">
                                 <i class="bi bi-telephone form-icon"></i>
-                                <input type="text" id="phonenumber" name="phonenumber" placeholder="phone number">
+                                <input type="text" id="phonenumber" name="phonenumber" placeholder="phone number (optional)">
                             </div>
                             <!-- message input -->
                             <div class="input-group textarea-group">
                                 <i class="bi bi-chat-right form-icon mssg-icon"></i>
-                                <textarea name="message" placeholder="message" required></textarea>
+                                <textarea name="message" placeholder="message*" required></textarea>
                             </div>
                             <button id="send-btn" type="submit">Send <i class="bi bi-send send-icon"></i></button>
                         </form>
@@ -113,8 +111,9 @@
         </main>
 
         <!-- javascript file linking -->
-        <script src="js/footer.js"></script>
+        <script src="js/about.js"></script>
         <script src="js/contact.js"></script>
+        <script src="js/footer.js"></script>
     </body>
     
 </html>
