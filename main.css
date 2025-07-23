@@ -37,11 +37,12 @@ button {
   display: inline-block;
   color: #1e1e1f;
   cursor: pointer;
-  border: 2px solid;
+  border: 2px solid transparent;
   border-radius: 50px;
   text-align: center;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
+  font-family: inherit;
 }
 
 
@@ -148,14 +149,43 @@ body {
 #landing-cta-btn {
   background-color: #c2cdff;
   color: #1e1e1f;
-  border-color: #c2cdff;
   font-size: 1.5rem;
 }
 
 #landing-cta-btn:hover {
   background-color: #92a5ff;
-  border-color: #92a5ff;
+  border-color: 2px solid #92a5ff;
   color: #efe9e9;
+  box-shadow: 0 0 5px #92a5ff;
+}
+
+/*****************/
+/* about section */
+/*****************/
+#about-subtitle {
+  color: #efe9e9
+}
+
+#rotating-subtitle {
+  font-weight: bolder;
+  color: #92a5ff;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  background-color: #efe9e9;
+  animation: blink 1s infinite;
+}
+.cursor.typing {
+  animation: none;
+}
+@keyframes blink { /* cursor blinking effect */
+  0% {background-color: #efe9e9; }
+  49% {background-color: #efe9e9; }
+  50% {background-color: transparent; }
+  99% {background-color: transparent; }
+  100% {background-color: #efe9e9; }
 }
 
 /*******************/
@@ -165,9 +195,9 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 50vw;
-  margin-top: 2rem;
+  margin-top: 1rem;
   gap: 1rem;
-  padding-top:2.75rem;
+  padding-top: 4rem;
   padding-bottom: 2rem;
   padding-left: 2.5rem;
   padding-right: 3rem;
@@ -195,6 +225,7 @@ body {
   outline: none;
   padding: 0.75rem;
   border-radius: 8px;
+  font-family: inherit;
 }
 
 .input-group textarea {
