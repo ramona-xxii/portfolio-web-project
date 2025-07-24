@@ -182,10 +182,26 @@ body {
 }
 @keyframes blink { /* cursor blinking effect */
   0% {background-color: #efe9e9; }
-  49% {background-color: #efe9e9; }
+  45% {background-color: #efe9e9; }
   50% {background-color: transparent; }
-  99% {background-color: transparent; }
+  95% {background-color: transparent; }
   100% {background-color: #efe9e9; }
+}
+
+#about-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.about-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.abt-group {
+  padding: 1rem;
 }
 
 /*******************/
