@@ -38,11 +38,38 @@
 
                 <!-- about section -->
                 <section id="about-sctn" class="section">
-                    <h1>About Me</h1>
-                    <h2 id="about-subtitle">I'm a 
+                    <h1 id="about-subtitle">I'm a 
                         <span id="rotating-subtitle"></span>
                         <span class="cursor typing">&nbsp;</span>
-                    </h2>
+                    </h1>
+                    <div id="about-content">
+                        <!-- left side column -->
+                        <div id="left-abt-col" class="abt-group">
+                            <img src="/images/profile_pic.png" alt="photo of ramona" class="about-photo">
+                            <h1>Ramona</h1>
+                        </div>
+                        <!-- right side column -->
+                        <div id="right-abt-col" class="abt-group">
+                            <div id="personal-description">
+                                <p>Hi, I'm Ramona! I'm a 4th-year Computer Science student at Thompson Rivers University, studying remotely 
+                                from my hometown of Toronto, ON. I live a bit of a double life — one in the world of programming, and 
+                                the other in the world of fitness.</p><br>
+
+                                <p>Before I discovered coding, fitness changed my life. It gave me drive, grit, and the confidence to pursue 
+                                big goals — even after two knee injuries that nearly ended my path in the industry. That same resilience 
+                                now fuels my journey into software development.</p><br>
+
+                                <p>Programming challenges me mentally in the same way the gym challenges me physically. Both demand focus, 
+                                consistency, and growth under pressure — and both have shaped me into the strongest version of myself, 
+                                inside and out.</p>
+
+                                <p>I'm currently diving deep into fullstack development and looking for a role where I can grow as a developer, 
+                                contribute to meaningful work, and be part of a team that values creativity, curiosity, and commitment.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
                 </section>
 
                 <!-- projects section -->
