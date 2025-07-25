@@ -11,7 +11,7 @@ const rolesArray = [
 
 const typingDelay = 200; // 200ms typing delay
 const erasingDelay = 100; // 100ms - erasing faster than typing
-const newTextDelay = 4000; // 2s delay between current & next string
+const newTextDelay = 6000; // 2s delay between current & next string
 
 let rolesArrayIndex = 0;
 let charIndex = 0;
