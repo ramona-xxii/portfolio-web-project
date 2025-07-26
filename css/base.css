@@ -1,0 +1,50 @@
+/* Reset margins/paddings for all elems */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* base btn styles */
+button {
+  display: inline-block;
+  color: #1e1e1f;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  text-align: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+/*******/
+/* msc */
+/*******/
+html {
+  scroll-behavior: smooth;
+}
+
+/**********/
+/*  body  */
+/**********/
+body {
+  background-color: #1e1e1f;
+  color: #efe9e9;
+  font-family: "Poppins", sans-serif;
+}
+
+/******************/
+/*    content     */
+/******************/
+.content {
+  padding: 0 6rem;
+}
+
+/************/
+/* sections */
+/************/
+.section {
+  min-height: calc(100vh - 6.875rem);
+  scroll-margin-top: 6.875rem;
+}
