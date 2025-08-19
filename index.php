@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <main>
@@ -28,20 +28,19 @@
             <div class="content">
                 <!-- landing section -->
                 <section id="landing-sctn" class="section">
-                    <p>Hi there, I'm</p>
-                    <h1>Ramona!</h1>
-                    <h2>CS student. Freelance developer. Got an idea?</h2>
+                    <h1 id="landing-pre-text">Hi there, I'm Ramona!</h1>
+                    <h2 id="landing-subtitle">I'm a 
+                        <span id="rotating-subtitle"></span>
+                        <span class="cursor typing">&nbsp;</span>
+                    </h2>
                     <div id="landing-btn-container">
-                        <button id ="landing-cta-btn" type="button">Let's Build It!</button>
+                        <button id ="landing-cta-btn" type="button">Get In Touch <i class="bi bi-arrow-right"></i></button>
                     </div>
                 </section>
 
                 <!-- about section -->
                 <section id="about-sctn" class="section">
-                    <h1 id="about-subtitle">I'm a 
-                        <span id="rotating-subtitle"></span>
-                        <span class="cursor typing">&nbsp;</span>
-                    </h1>
+                    <h1>About Me</h1>
                     <div id="about-content">
                         <!-- left side column -->
                         <div id="left-abt-col" class="abt-group">
@@ -60,7 +59,8 @@
                             <div id="personal-description">
                                 <p>Hi, I'm Ramona! I'm a 4th-year Computer Science student at Thompson Rivers University, studying remotely 
                                 from my hometown of Toronto, ON. I live a bit of a double life — one in the world of programming, and 
-                                the other in the world of fitness.</p><br>
+                                the other in the world of fitness. But after 5 years in the fitness industry, I'm looking to dive into
+                                programming full time!</p><br>
                                 <p>Programming challenges me mentally in the same way the gym challenges me physically. Both demand focus, 
                                 consistency, and growth under pressure — and both have shaped me into the strongest version of myself, 
                                 inside and out.</p>
@@ -120,7 +120,7 @@
                 <!-- contact section -->
                 <section id="contact-sctn" class="section">
                     <h1>Get In Touch!</h1>
-                    <p>Fill out the form below and I'll get back to you ASAP!</p>
+                    <p>Fill out the form below and I'll get back to you ASAP</p>
                     <!-- contact form -->
                         <form action="." method="post" class="contact-form">
                             <!-- name input -->
@@ -153,8 +153,8 @@
             <footer>
                 <div class="footer-content">
                     <div id="footer-left">
-                        <h2>RM_Dev</h2>
-                        <p>Freelance Fullstack Development</p>
+                        <h2>Ramona</h2>
+                        <p>Computer Scientist</p>
                         <div class="footer-icon-group">
                             <i class="bi bi-github footer-icon"></i>
                             <i class="bi bi-linkedin footer-icon"></i>
