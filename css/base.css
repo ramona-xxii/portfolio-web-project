@@ -1,11 +1,16 @@
-/* Reset margins/paddings for all elems */
+/* Reset margins/paddings for blank base */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* base btn styles */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  line-height: 1;
+}
+
+/* base button styles */
 button {
   display: inline-block;
   color: #1e1e1f;
