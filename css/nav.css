@@ -1,0 +1,40 @@
+/******************/
+/* navigation bar */
+/******************/
+.topnav {
+  background-color: #1e1e1f;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.brand {
+  color: #efe9e9;
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding: 2.5rem 0;
+  margin: 0 2rem;
+}
+
+.nav-items {
+  font-size: 1.25rem;
+  display: flex;
+  margin-left: auto; /* pushes items right */
+}
+
+.nav-link {
+  color: #efe9e9;
+  display: inline-block;
+  padding: 1rem 0;
+  margin: 0 2rem;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #c2cdff;
+}
+
+.nav-link:active {
+  color: #92a5ff;
+}
