@@ -28,14 +28,13 @@
             <div class="content">
                 <!-- landing section -->
                 <section id="landing-sctn" class="section">
-                    <h1 id="landing-pre-text">Hi, I'm Ramona!</h1>
-                    <h2 id="landing-subtitle">I'm a 
-                        <span id="rotating-subtitle"></span>
-                        <span class="cursor typing">&nbsp;</span>
-                    </h2>
-                    <div id="landing-btn-container">
-                        <button id ="landing-cta-btn" type="button">Get In Touch</button>
+                    <h1>Hi, I'm Ramona!</h1>
+                    <h2>Computer Science Student. Aspiring Web Developer.</h2>
+                    <div id="landing-icon-group">
+                        <i class="bi bi-github"></i>
+                        <i class="bi bi-linkedin"></i>
                     </div>
+                    
                 </section>
 
                 <!-- about section -->
@@ -57,11 +56,11 @@
                         <!-- right side column -->
                         <div id="right-abt-col" class="abt-group">
                             <div id="personal-description">
-                                <p class="about-paragraph">Hi, I'm Ramona! I'm a 4th-year Computer Science student at Thompson Rivers University, studying remotely 
+                                <p class="about-paragraph">Hi, I'm Ramona! I'm a Computer Science student at Thompson Rivers University, studying remotely 
                                 from my hometown of Toronto, ON. I live a bit of a double life — one in the world of programming, and 
                                 the other in the world of fitness. But after 5 years in the fitness industry, I'm looking to dive into
                                 programming full time!</p><br>
-                                <p class="about-paragraph">Programming challenges me mentally in the same way the gym challenges me physically. Both demand focus, 
+                                <p class="about-paragraph">Programming challenges me mentally the same way the gym challenges me physically. Both demand focus, 
                                 consistency, and growth under pressure — and both have shaped me into the strongest version of myself, 
                                 inside and out.</p>
                             </div>

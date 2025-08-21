@@ -1,9 +1,14 @@
+/*---------------------------------------*/
 /* Reset margins/paddings for blank base */
+/*---------------------------------------*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/*-----------------------------------*/
+/* Headers & paragraph default sizes */
+/*-----------------------------------*/
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: "Poppins", sans-serif;
@@ -12,7 +17,17 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 300;
 }
 
+h1 { font-size: 3rem;}
+h2 { font-size: 2rem;}
+h3 { font-size: 1.75rem;}
+h4 { font-size: 1.5rem;}
+h5 { font-size: 1.25rem;}
+h6 { font-size: 1rem;}
+p { font-size: 1rem;}
+
+/*--------------------*/
 /* base button styles */
+/*--------------------*/
 button {
   display: inline-block;
   color: #1e1e1f;
@@ -25,25 +40,25 @@ button {
   font-family: inherit;
 }
 
-/*******/
-/* msc */
-/*******/
+/*-------*/
+/*  msc  */
+/*-------*/
 html {
   scroll-behavior: smooth;
 }
 
-/**********/
+/*--------*/
 /*  body  */
-/**********/
+/*--------*/
 body {
   background-color: #1e1e1f;
   color: #efe9e9;
   font-family: "Poppins", sans-serif;
 }
 
-/******************/
+/*----------------*/
 /*    content     */
-/******************/
+/*----------------*/
 .content {
   padding: 0 6rem;
 }
