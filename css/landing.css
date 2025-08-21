@@ -10,3 +10,8 @@
   gap: 1rem;
 }
 
+#landing-icon-group {
+  display: flex;
+  gap: 1rem;
+}
+
