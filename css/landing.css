@@ -1,0 +1,58 @@
+/*******************/
+/* landing section */
+/*******************/
+#landing-pre-text {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+#landing-subtitle {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #efe9e9;
+}
+
+#rotating-subtitle {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #92a5ff;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  background-color: #efe9e9;
+  animation: blink 1s infinite;
+}
+.cursor.typing {
+  animation: none;
+}
+@keyframes blink { /* cursor blinking effect */
+  0% {background-color: #efe9e9; }
+  45% {background-color: #efe9e9; }
+  50% {background-color: transparent; }
+  95% {background-color: transparent; }
+  100% {background-color: #efe9e9; }
+}
+
+#landing-sctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#landing-cta-btn {
+  padding-top: 0.5rem;
+  background-color: #92a5ff;
+  color: #efe9e9;
+  font-size: 1.5rem;
+}
+
+#landing-cta-btn:hover {
+  background-color: #92a5ff;
+  border-color: 2px solid #92a5ff;
+  color: #efe9e9;
+  box-shadow: 0 0 5px #92a5ff;
+}
