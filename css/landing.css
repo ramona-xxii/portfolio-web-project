@@ -1,12 +1,6 @@
-/*******************/
+/*-----------------*/
 /* landing section */
-/*******************/
-#landing-pre-text {
-  font-size: 5rem;
-  font-weight: 500;
-}
-
-
+/*-----------------*/
 
 #landing-sctn {
   display: flex;
