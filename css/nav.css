@@ -29,15 +29,12 @@
   padding: 1rem 0;
   margin: 0 2rem;
   text-decoration: none;
-  border-bottom: 2px solid transparent; /*prevents text jiggle on hover */
 }
 
 .nav-link:hover {
   color: #c2cdff;
-  border-bottom: 2px solid #c2cdff;
 }
 
 .nav-link:active {
   color: #92a5ff;
-  border-bottom: 2px solid #92a5ff;
 }
