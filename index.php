@@ -28,13 +28,13 @@
             <div class="content">
                 <!-- landing section -->
                 <section id="landing-sctn" class="section">
-                    <h1 id="landing-pre-text">Hi there, I'm Ramona!</h1>
+                    <h1 id="landing-pre-text">Hi, I'm Ramona!</h1>
                     <h2 id="landing-subtitle">I'm a 
                         <span id="rotating-subtitle"></span>
                         <span class="cursor typing">&nbsp;</span>
                     </h2>
                     <div id="landing-btn-container">
-                        <button id ="landing-cta-btn" type="button">Get In Touch <i class="bi bi-arrow-right"></i></button>
+                        <button id ="landing-cta-btn" type="button">Get In Touch</button>
                     </div>
                 </section>
 
@@ -46,22 +46,22 @@
                         <div id="left-abt-col" class="abt-group">
                             <div id="profile-card">
                                 <img src="/images/profile_pic.png" alt="photo of ramona" class="about-photo">
-                                <h1>Ramona</h1>
+                                <h2 id="name-tag">Ramona</h2>
                             </div>
                             <div id="education-container">
-                                <p>Education</p>
-                                <p>BCS Computer Science</p>
-                                <p>Thompson Rivers University</p>
+                                <p class="edu">Education</p>
+                                <p class="edu">BCS Computer Science</p>
+                                <p class="edu">Thompson Rivers University</p>
                             </div>
                         </div>
                         <!-- right side column -->
                         <div id="right-abt-col" class="abt-group">
                             <div id="personal-description">
-                                <p>Hi, I'm Ramona! I'm a 4th-year Computer Science student at Thompson Rivers University, studying remotely 
+                                <p class="about-paragraph">Hi, I'm Ramona! I'm a 4th-year Computer Science student at Thompson Rivers University, studying remotely 
                                 from my hometown of Toronto, ON. I live a bit of a double life — one in the world of programming, and 
                                 the other in the world of fitness. But after 5 years in the fitness industry, I'm looking to dive into
                                 programming full time!</p><br>
-                                <p>Programming challenges me mentally in the same way the gym challenges me physically. Both demand focus, 
+                                <p class="about-paragraph">Programming challenges me mentally in the same way the gym challenges me physically. Both demand focus, 
                                 consistency, and growth under pressure — and both have shaped me into the strongest version of myself, 
                                 inside and out.</p>
                             </div>
