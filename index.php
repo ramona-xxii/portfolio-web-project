@@ -29,13 +29,7 @@
                 <!-- landing section -->
                 <section id="landing-sctn" class="section">
                     <h1 id="landing-pre-text">Hi, I'm Ramona!</h1>
-                    <h2 id="landing-subtitle">I'm a 
-                        <span id="rotating-subtitle"></span>
-                        <span class="cursor typing">&nbsp;</span>
-                    </h2>
-                    <div id="landing-btn-container">
-                        <button id ="landing-cta-btn" type="button">Get In Touch</button>
-                    </div>
+                    
                 </section>
 
                 <!-- about section -->
