@@ -6,6 +6,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/*------------------*/
+/* scroll behaviour */
+/*------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
 /*-----------------------------------*/
 /* Headers & paragraph default sizes */
 /*-----------------------------------*/
@@ -40,11 +48,19 @@ button {
   font-family: inherit;
 }
 
-/*-------*/
-/*  msc  */
-/*-------*/
-html {
-  scroll-behavior: smooth;
+/*-----------------*/
+/* base icon style */
+/*-----------------*/
+.icon {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.75rem;
+  color:#efe9e9;
+  text-decoration: none;
+  vertical-align: middle;
 }
 
 /*--------*/
@@ -63,9 +79,9 @@ body {
   padding: 0 6rem;
 }
 
-/************/
+/*----------*/
 /* sections */
-/************/
+/*----------*/
 .section {
   min-height: calc(100vh - 6.875rem);
   scroll-margin-top: 6.875rem;
