@@ -26,15 +26,19 @@
             
             <!-- content -->
             <div class="content">
+
                 <!-- landing section -->
                 <section id="landing-sctn" class="section">
                     <h1>Hi, I'm Ramona!</h1>
                     <h2>Computer Science Student. Aspiring Web Developer.</h2>
                     <div id="landing-icon-group">
-                        <i class="bi bi-github"></i>
-                        <i class="bi bi-linkedin"></i>
+                        <a href="https://github.com/ramona-xxii" target="_blank">
+                            <i class="bi bi-github icon"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ramona-mcbrearty-468a76202/" target="_blank">
+                            <i class="bi bi-linkedin icon"></i>
+                        </a>
                     </div>
-                    
                 </section>
 
                 <!-- about section -->
@@ -155,8 +159,12 @@
                         <h2>Ramona</h2>
                         <p>Computer Scientist</p>
                         <div class="footer-icon-group">
-                            <i class="bi bi-github footer-icon"></i>
-                            <i class="bi bi-linkedin footer-icon"></i>
+                            <a href="https://github.com/ramona-xxii">
+                                <i class="bi bi-github footer-icon icon"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ramona-mcbrearty-468a76202/">
+                                <i class="bi bi-linkedin footer-icon icon"></i>
+                            </a>
                         </div>
                     </div>
                     <div id="footer-right">
