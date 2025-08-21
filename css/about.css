@@ -23,10 +23,18 @@
   border-radius: 50%;
 }
 
+#name-tag {
+  padding-top: 0.5rem;
+}
+
 #education-container {
   border: 2px solid #efe9e9;
   border-radius: 8px;
   padding: 1rem;
+}
+
+.edu {
+  padding: 0.25rem;
 }
 
 .abt-group {
@@ -43,9 +51,12 @@
   padding-top: 3rem;
 }
 
+.about-paragraph {
+  line-height: 1.3;
+}
+
 .skills-label {
   white-space: nowrap;
-  font-weight: lighter;
 }
 
 .skills-pair {
