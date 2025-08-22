@@ -29,8 +29,10 @@
 
                 <!-- landing section -->
                 <section id="landing-sctn" class="section">
-                    <h1>Hi, I'm Ramona!</h1>
-                    <h2>Computer Science Student. Aspiring Web Developer. Welcome to my site, stay & explore!</h2>
+                    <div id="landing-text">
+                        <h1>Hi, I'm Ramona!</h1>
+                        <h2>Computer Science Student. Aspiring Web Developer. Welcome to my site, stay & explore!</h2>
+                    </div>
                     <div id="landing-icon-group">
                         <a href="https://github.com/ramona-xxii" target="_blank">
                             <i class="bi bi-github icon"></i>
@@ -190,7 +192,6 @@
         </main>
 
         <!-- javascript file linking -->
-        <script src="js/about.js"></script>
         <script src="js/contact.js"></script>
         <script src="js/footer.js"></script>
     </body>
