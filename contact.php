@@ -1,7 +1,7 @@
 <?php
 if($_SERVER["REQUEST_METHOD"] === "POST"){
 
-    // sanitize inputs
+    // sanitize form inputs
     $name = trim(filter_input(INPUT_POST, "name", FILTER_SANITIZE_FULL_SPECIAL_CHARS));
     $email = trim(filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL));
     $phonenumber = trim(preg_replace("/[^0-9]/", "", $_POST["phonenumber"] ?? ""));    
@@ -26,5 +26,11 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
     function isValidMessage($message){
         return !empty($message);
     }
+
+    // set receiving email
+    $to = "ramona.mcbrearty@gmail.com";
+
+    // email content setup
+    
 
 }
