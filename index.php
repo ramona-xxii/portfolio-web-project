@@ -30,7 +30,7 @@
                 <!-- landing section -->
                 <section id="landing-sctn" class="section">
                     <h1>Hi, I'm Ramona!</h1>
-                    <h2>Computer Science Student. Aspiring Web Developer.</h2>
+                    <h2>Computer Science Student. Aspiring Web Developer. Welcome to my site, feel free to explore!</h2>
                     <div id="landing-icon-group">
                         <a href="https://github.com/ramona-xxii" target="_blank">
                             <i class="bi bi-github icon"></i>
@@ -39,7 +39,7 @@
                             <i class="bi bi-linkedin icon"></i>
                         </a>
                     </div>
-                </section>
+                </section> <!-- end of landing section -->
 
                 <!-- about section -->
                 <section id="about-sctn" class="section">
@@ -69,63 +69,66 @@
                                 inside and out.</p>
                             </div>
 
-                            <div id="skills-container">
-
-                                <div class="skills-pair">
-                                    <h2 class="skills-label">Web Dev Skills:</h2>
-                                    <ul class="skills-list">
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>Bootstrap</li>
-                                        <li>AJAX</li>
-                                        <li>PHP</li>
-                                        <li>JavaScript</li>
-                                        <li>MySQL</li>
-                                    </ul>
-                                </div>
-
-                                <div class="skills-pair">
-                                    <h2 class="skills-label">Programming Languages:</h2>
-                                    <ul class="skills-list">
-                                        <li>Java</li>
-                                        <li>Python</li>
-                                        <li>C/C++</li>
-                                        <li>SQL</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="skills-row">
-                                    <div class="skills-pair">
-                                        <h2 class="skills-label">Databases:</h2>
-                                        <ul class="skills-list">
-                                            <li>MySQL</li>
-                                        </ul>
-                                    </div>
-                                    <div class="skills-pair">
-                                        <h2 class="skills-label">Version Control:</h2>
-                                        <ul class="skills-list">
-                                            <li>Git</li>
-                                            <li>GitHub</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     
-                </section>
+                </section> <!-- end of about section -->
+
+                <!-- banner section -->
+                <section id="banner-sctn">
+
+                    <div class="skills-pair">
+                        <h2 class="skills-label">Web Dev Skills:</h2>
+                            <ul class="skills-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>AJAX</li>
+                                <li>PHP</li>
+                                <li>JavaScript</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+
+                        <div class="skills-pair">
+                            <h2 class="skills-label">Programming Languages:</h2>
+                                <ul class="skills-list">
+                                    <li>Java</li>
+                                    <li>Python</li>
+                                    <li>C/C++</li>
+                                    <li>SQL</li>
+                                </ul>
+                        </div>
+
+                        <div class="skills-pair">
+                            <h2 class="skills-label">Databases:</h2>
+                                <ul class="skills-list">
+                                    <li>MySQL</li>
+                                </ul>
+                        </div>
+
+                        <div class="skills-pair">
+                            <h2 class="skills-label">Version Control:</h2>
+                                <ul class="skills-list">
+                                    <li>Git</li>
+                                    <li>GitHub</li>
+                                </ul>
+                        </div>
+
+                </section> <!-- end of banner section -->
 
                 <!-- projects section -->
                 <section id="projects-sctn" class="section">
                     <h1>Projects</h1>
-                </section>
+                </section> <!-- end of projects section -->
 
                 <!-- contact section -->
                 <section id="contact-sctn" class="section">
                     <h1>Get In Touch!</h1>
-                    <p>Fill out the form below and I'll get back to you ASAP</p>
                     <!-- contact form -->
                         <form action="." method="post" class="contact-form">
+                            <h5 id="contact-subtitle">Please fill out the form below and I'll get back to you ASAP</h5>
                             <!-- name input -->
                             <div class="input-group">
                                 <i class="bi bi-person form-icon"></i>
@@ -146,11 +149,13 @@
                                 <i class="bi bi-chat-right form-icon mssg-icon"></i>
                                 <textarea name="message" placeholder="message*" required></textarea>
                             </div>
+                            <!-- send button -->
                             <button id="send-btn" type="submit">Send <i class="bi bi-send send-icon"></i></button>
                         </form>
                     
-                </section>
-            </div>
+                </section> <!-- end of contact section -->
+
+            </div> <!-- end of content div -->
 
             <!-- footer -->
             <footer>
