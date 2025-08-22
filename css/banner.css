@@ -1,0 +1,33 @@
+/*----------------*/
+/* banner section */
+/*----------------*/
+#banner-sctn {
+    height: fit-content;
+    display: flex;
+    background-color: #c2cdff;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.skills-label {
+  white-space: nowrap;
+}
+
+.skills-pair {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  padding: 0.25rem 1rem;
+  font-size: 1.25rem;
+  display: flex;
+  gap: 1rem;
+  border: 2px solid #efe9e9;
+  border-radius: 8px;
+}
