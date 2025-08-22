@@ -1,6 +1,6 @@
-/**********/
+/*--------*/
 /* footer */
-/**********/
+/*--------*/
 footer {
   margin-top: 2rem;
   background-color: #2a2a2b;
@@ -28,6 +28,9 @@ footer {
   gap: 0.75rem;
 }
 
+/*----------------*/
+/* link list menu */
+/*----------------*/
 #footer-nav-list {
   list-style: none;
   display: flex;
@@ -40,13 +43,17 @@ footer {
   color: #efe9e9;
 }
 
+/*-------*/
+/* icons */
+/*-------*/
 .footer-icon-group {
   display: flex;
   gap: 1rem;
 }
 
-
-
+/*--------*/
+/* bottom */
+/*--------*/
 #footer-bottom {
   display: flex;
   justify-content: center;
