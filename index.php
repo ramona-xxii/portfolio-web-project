@@ -45,8 +45,10 @@
 
                 <!-- about section -->
                 <section id="about-sctn" class="section">
+
                     <h1>About Me</h1>
                     <div id="about-content">
+
                         <!-- left side column -->
                         <div id="left-abt-col" class="abt-group">
                             <div id="profile-card">
@@ -54,26 +56,27 @@
                                 <h2 id="name-tag">Ramona</h2>
                             </div>
                             <div id="education-container">
-                                <p class="edu">Education</p>
-                                <p class="edu">BCS Computer Science</p>
+                                <h5 class="edu">BCS Computer Science</h5>
                                 <p class="edu">Thompson Rivers University</p>
                             </div>
                         </div>
+
                         <!-- right side column -->
                         <div id="right-abt-col" class="abt-group">
                             <div id="personal-description">
-                                <p class="about-paragraph">Hi, I'm Ramona! I'm a Computer Science student at Thompson Rivers University, studying remotely 
-                                from my hometown of Toronto, ON. I live a bit of a double life — one in the world of programming, and 
-                                the other in the world of fitness. But after 5 years in the fitness industry, I'm looking to dive into
-                                programming full time!</p><br>
-                                <p class="about-paragraph">Programming challenges me mentally the same way the gym challenges me physically. Both demand focus, 
-                                consistency, and growth under pressure — and both have shaped me into the strongest version of myself, 
-                                inside and out.</p>
-                            </div>
+                                <p class="about-paragraph">Hi, I'm Ramona! I'm a Computer Science student at Thompson Rivers University, 
+                                    studying remotely from my hometown of Toronto, ON. I live a bit of a double life — one in the world 
+                                    of programming, and the other in the world of fitness. But after 5 years in the fitness industry, I'm 
+                                    looking to dive into programming full time!
+                                </p><br>
+                                <p class="about-paragraph">Programming challenges me mentally the same way the gym challenges me physically. 
+                                    Both demand focus, consistency, and growth under pressure — and both have shaped me into the strongest 
+                                    version of myself, inside and out.
+                                </p>
+                            </div> <!-- end of personal description div -->
+                        </div> <!-- end of right side column div -->
 
-                            
-                        </div>
-                    </div>
+                    </div> <!-- end of about content div -->
                     
                 </section> <!-- end of about section -->
 
@@ -129,7 +132,7 @@
                 <section id="contact-sctn" class="section">
                     <h1>Get In Touch!</h1>
                     <!-- contact form -->
-                        <form action="." method="post" class="contact-form">
+                        <form action="contact.php" method="post" class="contact-form">
                             <h5 id="contact-subtitle">Please fill out the form below and I'll get back to you ASAP</h5>
                             <!-- name input -->
                             <div class="input-group">
