@@ -7,6 +7,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+#landing-icon-group {
+  display: flex;
   gap: 1rem;
 }
 
