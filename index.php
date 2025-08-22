@@ -25,12 +25,12 @@
             </nav>
             
             <!-- content -->
-            <div class="content">
+            <div class="site-content">
 
                 <!-- landing section -->
                 <section id="landing-sctn" class="section">
                     <h1>Hi, I'm Ramona!</h1>
-                    <h2>Computer Science Student. Aspiring Web Developer. Welcome to my site, feel free to explore!</h2>
+                    <h2>Computer Science Student. Aspiring Web Developer. Welcome to my site, stay & explore!</h2>
                     <div id="landing-icon-group">
                         <a href="https://github.com/ramona-xxii" target="_blank">
                             <i class="bi bi-github icon"></i>
