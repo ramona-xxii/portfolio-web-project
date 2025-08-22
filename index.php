@@ -152,7 +152,10 @@
                                 <textarea name="message" placeholder="message*" required></textarea>
                             </div>
                             <!-- send button -->
-                            <button id="send-btn" type="submit">Send <i class="bi bi-send send-icon"></i></button>
+                            <div id="form-btn-container">
+                                <button id="send-btn" type="submit">Send <i class="bi bi-send send-icon"></i></button>
+                            </div>
+                            
                         </form>
                     
                 </section> <!-- end of contact section -->
