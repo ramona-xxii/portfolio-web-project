@@ -1,9 +1,14 @@
 /*-----------------*/
 /* contact section */
 /*-----------------*/
+#contact-heading {
+  color: #efe9e9;
+}
+
 #contact-subtitle {
   line-height: 1.2;
   padding-bottom: 1rem;
+  color: #efe9e9;
 }
 
 .contact-form {
