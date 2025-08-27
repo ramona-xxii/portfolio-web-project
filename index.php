@@ -28,7 +28,8 @@
             <div class="site-content">
 
                 <!-- landing section -->
-                <section id="landing-sctn" class="section">
+                <section id="landing-sctn">
+
                     <div id="landing-text">
                         <h1>Hi, I'm Ramona!</h1>
                         <h2>Computer Science Student. Aspiring Web Developer. Welcome to my site, stay & explore!</h2>
@@ -46,8 +47,8 @@
                 <!-- about section -->
                 <section id="about-sctn" class="section">
 
-                    <h1>About Me</h1>
-                    <div id="about-content">
+                    <h1 class="section-heading"> A little bit about me...</h1>
+                    <div id="about-content" class="section-content">
 
                         <!-- left side column -->
                         <div id="left-abt-col" class="abt-group">
@@ -64,14 +65,17 @@
                         <!-- right side column -->
                         <div id="right-abt-col" class="abt-group">
                             <div id="personal-description">
-                                <p class="about-paragraph">Hi, I'm Ramona! I'm a Computer Science student at Thompson Rivers University, 
-                                    studying remotely from my hometown of Toronto, ON. I live a bit of a double life — one in the world 
-                                    of programming, and the other in the world of fitness. But after 5 years in the fitness industry, I'm 
-                                    looking to dive into programming full time!
+                                <p class="about-paragraph">Hi, I'm Ramona! I'm a Computer Science student at Thompson Rivers 
+                                    University, studying remotely from my hometown of Toronto, ON. For the past half decade, 
+                                    I've worked in the fitness and wellness industry while completing my studies. This 
+                                    chapter of my life taught me that success comes from drive, consistency, and the ability 
+                                    to grow under pressure—all qualities I now bring to programming. 
                                 </p><br>
-                                <p class="about-paragraph">Programming challenges me mentally the same way the gym challenges me physically. 
-                                    Both demand focus, consistency, and growth under pressure — and both have shaped me into the strongest 
-                                    version of myself, inside and out.
+                                <p class="about-paragraph">While fitness will always be a big part of who I am, I'm excited 
+                                    to dive into programming full time. I've been especially drawn to fullstack web 
+                                    development, which is why I built this website! I'm eager to contribute to projects that 
+                                    push me to keep learning and building. So if you're looking for a programmer with 
+                                    discipline, creativity, and killer abs - you've found me!
                                 </p>
                             </div> <!-- end of personal description div -->
                         </div> <!-- end of right side column div -->
@@ -81,10 +85,13 @@
                 </section> <!-- end of about section -->
 
                 <!-- banner section -->
-                <section id="banner-sctn">
+                <section id="banner-sctn" class="section">
+
+                <h1 class="section-heading">Skills</h1>
+                <div class="section-content">
 
                     <div class="skills-pair">
-                        <h2 class="skills-label">Web Dev Skills:</h2>
+                        <h5 class="skills-label">Web Development:</h5>
                             <ul class="skills-list">
                                 <li>HTML</li>
                                 <li>CSS</li>
@@ -94,33 +101,35 @@
                                 <li>JavaScript</li>
                                 <li>MySQL</li>
                             </ul>
-                        </div>
+                    </div>
 
-                        <div class="skills-pair">
-                            <h2 class="skills-label">Programming Languages:</h2>
-                                <ul class="skills-list">
-                                    <li>Java</li>
-                                    <li>Python</li>
-                                    <li>C/C++</li>
-                                    <li>SQL</li>
-                                </ul>
-                        </div>
+                    <div class="skills-pair">
+                        <h5 class="skills-label">Programming Languages:</h5>
+                             <ul class="skills-list">
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>C/C++</li>
+                                <li>SQL</li>
+                            </ul>
+                    </div>
 
-                        <div class="skills-pair">
-                            <h2 class="skills-label">Databases:</h2>
-                                <ul class="skills-list">
-                                    <li>MySQL</li>
-                                </ul>
-                        </div>
+                    <div class="skills-pair">
+                        <h5 class="skills-label">Databases:</h5>
+                            <ul class="skills-list">
+                                <li>MySQL</li>
+                            </ul>
+                    </div>
 
-                        <div class="skills-pair">
-                            <h2 class="skills-label">Version Control:</h2>
-                                <ul class="skills-list">
-                                    <li>Git</li>
-                                    <li>GitHub</li>
-                                </ul>
-                        </div>
+                    <div class="skills-pair">
+                        <h5 class="skills-label">Version Control:</h5>
+                            <ul class="skills-list">
+                                <li>Git</li>
+                                <li>GitHub</li>
+                            </ul>
+                    </div>
 
+                </div> <!-- end of section content div -->
+                
                 </section> <!-- end of banner section -->
 
                 <!-- projects section -->
@@ -130,10 +139,11 @@
 
                 <!-- contact section -->
                 <section id="contact-sctn" class="section">
-                    <h1>Get In Touch!</h1>
+                    
                     <!-- contact form -->
                         <form action="contact.php" method="post" class="contact-form">
-                            <h5 id="contact-subtitle">Please fill out the form below and I'll get back to you ASAP</h5>
+                            <h1 id="contact-heading">Get In Touch!</h1>
+                            <p id="contact-subtitle">Please fill out the form below and I'll get back to you ASAP</p>
                             <!-- name input -->
                             <div class="input-group">
                                 <i class="bi bi-person form-icon"></i>
@@ -156,7 +166,7 @@
                             </div>
                             <!-- send button -->
                             <div id="form-btn-container">
-                                <button id="send-btn" type="submit">Send <i class="bi bi-send send-icon"></i></button>
+                                <button id="send-btn" type="submit"><i class="bi bi-send send-icon"></i> Send</button>
                             </div>
                             
                         </form>
