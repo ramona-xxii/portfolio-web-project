@@ -1,33 +1,29 @@
 /*----------------*/
 /* banner section */
 /*----------------*/
-#banner-sctn {
-    height: fit-content;
-    display: flex;
-    background-color: #c2cdff;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 2rem;
-}
-
 .skills-label {
-  white-space: nowrap;
+  flex-wrap: wrap;
 }
 
 .skills-pair {
   display: flex;
   gap: 1rem;
+  margin-bottom: 0.75rem;
   align-items: center;
-  padding: 0.5rem 0;
 }
 
 .skills-list {
   list-style: none;
   display: flex;
-  padding: 0.25rem 1rem;
-  font-size: 1.25rem;
+  padding: 0 1rem;
   display: flex;
   gap: 1rem;
-  border: 2px solid #efe9e9;
+  border: 1px solid #1e1e1f;
   border-radius: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.skills-list li {
+  padding: 0.5rem 0;
 }
