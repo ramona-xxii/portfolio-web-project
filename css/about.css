@@ -1,23 +1,16 @@
 /*---------------*/
 /* about section */
 /*---------------*/
-
 #about-content {
   display: flex;
   flex-direction: row;
   align-items: flex-end; /* align both cols to bottom */
-  margin-top: 2rem;
-  gap: 1.5rem;
-}
-
-.abt-group {
-  padding: 1rem;
+  gap: 5rem;
 }
 
 /*-----------*/
 /* left side */
 /*-----------*/
-
 #left-abt-col {
   display: flex;
   flex-direction: column;
@@ -37,9 +30,9 @@
 }
 
 #education-container {
-  border: 2px solid #efe9e9;
+  border: 1px solid #1e1e1f;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 0.5rem 0.75rem;
 }
 
 .edu {
@@ -50,12 +43,8 @@
 /*------------*/
 /* right side */
 /*------------*/
-#personal-description{
-  border: 2px solid #efe9e9;
-  border-radius: 8px;
-  padding: 1rem;
-}
-
 .about-paragraph {
   line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
 }
