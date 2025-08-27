@@ -58,7 +58,7 @@ button {
   width: 2rem;
   height: 2rem;
   font-size: 1.75rem;
-  color:#efe9e9;
+  color:#1e1e1f;
   text-decoration: none;
   vertical-align: middle;
   line-height: 1;
@@ -68,8 +68,8 @@ button {
 /*  body  */
 /*--------*/
 body {
-  background-color: #1e1e1f;
-  color: #efe9e9;
+  background-color: #efe9e9;
+  color:#1e1e1f;
   font-family: "Poppins", sans-serif;
 }
 
@@ -84,6 +84,15 @@ body {
 /* sections */
 /*----------*/
 .section {
-  min-height: calc(100vh - 6.875rem);
   scroll-margin-top: 6.875rem;
+  height: fit-content;
+}
+
+.section-heading {
+  padding: 1.5rem 0;
+}
+
+.section-content {
+  padding-bottom: 1rem;
+  padding-left: 3.5rem;
 }
