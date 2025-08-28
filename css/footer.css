@@ -2,16 +2,20 @@
 /* footer */
 /*--------*/
 footer {
-  margin-top: 2rem;
-  background-color: #2a2a2b;
-  color: #efe9e9;
+  margin-top: 4rem;
+  /* glassmorphism effect */
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.7px);
+  -webkit-backdrop-filter: blur(5.7px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .footer-content {
   display: flex;
   padding-top: 1.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 #footer-left,
@@ -43,7 +47,7 @@ footer {
 
 .footer-nav-link {
   text-decoration: none;
-  color: #efe9e9;
+  color: #2a2a2b;
 }
 
 /*-------*/
@@ -55,7 +59,7 @@ footer {
 }
 
 .footer-icon {
-  color: #efe9e9;;
+  color: #2a2a2b;
 }
 
 /*--------*/

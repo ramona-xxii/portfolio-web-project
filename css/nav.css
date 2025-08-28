@@ -2,19 +2,24 @@
 /* navigation bar */
 /******************/
 .topnav {
-  background-color: #1e1e1f;
   display: flex;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 1000;
+  /* glassmorphism effect */
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.4px);
+  -webkit-backdrop-filter: blur(9.4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .brand {
-  color: #efe9e9;
+  color: #1e1e1f;
   font-size: 1.25rem;
   text-decoration: none;
-  padding: 2.5rem 0;
+  padding: 2rem 0;
   margin: 0 2rem;
 }
 
@@ -25,7 +30,7 @@
 }
 
 .nav-link {
-  color: #efe9e9;
+  color: #1e1e1f;
   display: inline-block;
   padding: 1rem 0;
   margin: 0 2rem;

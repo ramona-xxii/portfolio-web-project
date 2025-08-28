@@ -19,7 +19,7 @@
   display: flex;
   gap: 1rem;
   border: 1px solid #1e1e1f;
-  border-radius: 8px;
+  border-radius: 16px;
   flex-wrap: wrap;
   align-items: center;
 }
