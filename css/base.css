@@ -58,7 +58,7 @@ button {
   width: 2rem;
   height: 2rem;
   font-size: 1.75rem;
-  color:#efe9e9;
+  color:#1e1e1f;
   text-decoration: none;
   vertical-align: middle;
   line-height: 1;
@@ -68,9 +68,14 @@ button {
 /*  body  */
 /*--------*/
 body {
-  background-color: #1e1e1f;
-  color: #efe9e9;
+  background-color: #efe9e9;
+  color:#1e1e1f;
   font-family: "Poppins", sans-serif;
+  background-image: url("../images/holo.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*----------------*/
@@ -84,6 +89,15 @@ body {
 /* sections */
 /*----------*/
 .section {
-  min-height: calc(100vh - 6.875rem);
   scroll-margin-top: 6.875rem;
+  height: fit-content;
+  padding: 2rem 0;
+}
+
+.section-heading {
+  margin-bottom: 1.75rem;
+}
+
+.section-content {
+  padding-left: 3.5rem;
 }
