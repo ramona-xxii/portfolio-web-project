@@ -11,6 +11,9 @@
   color: #efe9e9;
 }
 
+/*------*/
+/* form */
+/*------*/
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -66,6 +69,9 @@
   padding-top: 0.25rem;
 }
 
+/*-------------*/
+/* send button */
+/*-------------*/
 #form-btn-container {
   display: flex;
   justify-content: center;
