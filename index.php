@@ -145,7 +145,7 @@
 
                         <!-- project 1: portfolio website card -->
                         <div class="project-card">
-                            <img src="images/card_img_placeholder.png" alt="Card Image" class="card-img">
+                            <img src="images/portfolio-screenshot.png" alt="Card Image" class="card-img">
                             <div class="card-content-container">
                                 <h4 class="project-title">Portfolio Website</h4>
 
@@ -181,7 +181,7 @@
 
                         <!-- project 3 card -->
                          <div class="project-card">
-                            <img src="images/card_img_placeholder.png" alt="Card Image" class="card-img">
+                            <img src="images/tictactoe-screenshot.png" alt="Card Image" class="card-img">
                             <div class="card-content-container">
                                 <h4 class="project-title">Tic Tac Toe</h4>
 
