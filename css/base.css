@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   line-height: 1;
   font-weight: 300;
+  color: #2a2a2b;
 }
 
 h1 { font-size: 3rem;}
@@ -38,7 +39,7 @@ p { font-size: 1rem;}
 /*--------------------*/
 button {
   display: inline-block;
-  color: #1e1e1f;
+  color: #2a2a2b;
   cursor: pointer;
   border: 2px solid transparent;
   border-radius: 8px;
@@ -58,7 +59,7 @@ button {
   width: 2rem;
   height: 2rem;
   font-size: 1.75rem;
-  color:#1e1e1f;
+  color:#2a2a2b;
   text-decoration: none;
   vertical-align: middle;
   line-height: 1;

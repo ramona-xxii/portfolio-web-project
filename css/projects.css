@@ -15,7 +15,7 @@
     margin: 0 auto;
     border: 1px solid #2a2a2b;
     border-radius: 8px;
-    background: white;
+    
     display: flex;
     flex-direction: column;
     position: relative;
@@ -24,6 +24,11 @@
     transition: 0.3s;
 
     overflow: hidden;
+
+    /* glassmorphism effect */
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
 }
 
 .project-card:hover {
@@ -35,6 +40,7 @@
 /*--------------*/
 .project-title {
     padding-top: 0.5rem;
+    font-weight: 400;
 }
 
 .card-content-container {
