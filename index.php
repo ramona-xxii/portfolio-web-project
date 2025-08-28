@@ -19,6 +19,7 @@
                 <!-- nav items -->
                  <div class="nav-items">
                     <a href="#about-sctn" class="nav-link">ABOUT ME</a>
+                    <a href="#banner-sctn" class="nav-link">SKILLS</a>
                     <a href="#projects-sctn" class="nav-link">PROJECTS</a>
                     <a href="#contact-sctn" class="nav-link">CONTACT</a>
                  </div>
@@ -47,7 +48,7 @@
                 <!-- about section -->
                 <section id="about-sctn" class="section">
 
-                    <h1 class="section-heading"> A little bit about me...</h1>
+                    <h1 class="section-heading">A little bit about me...</h1>
                     <div id="about-content" class="section-content">
 
                         <!-- left side column -->
@@ -66,17 +67,17 @@
                         <div id="right-abt-col" class="abt-group">
                             <div id="personal-description">
                                 <p class="about-paragraph">Hi, I'm Ramona! I'm a Computer Science student at Thompson Rivers 
-                                    University, studying remotely from my hometown of Toronto, ON. For the past half decade, 
-                                    I've worked in the fitness and wellness industry while completing my studies. This 
-                                    chapter of my life taught me that success comes from drive, consistency, and the ability 
-                                    to grow under pressure—all qualities I now bring to programming. 
-                                </p><br>
+                                    University, studying remotely from my hometown of Toronto, ON.</p><br>
+                                <p class="about-paragraph">For the past half decade, I've worked in the fitness and wellness 
+                                    industry while completing my studies. This chapter of my life taught me that success comes 
+                                    from drive, consistency, and the ability to grow under pressure—all qualities I now bring 
+                                    to programming.</p><br>
                                 <p class="about-paragraph">While fitness will always be a big part of who I am, I'm excited 
                                     to dive into programming full time. I've been especially drawn to fullstack web 
                                     development, which is why I built this website! I'm eager to contribute to projects that 
-                                    push me to keep learning and building. So if you're looking for a programmer with 
-                                    discipline, creativity, and killer abs - you've found me!
-                                </p>
+                                    push me to keep learning and building.</p><br>
+                                <p class="about-paragraph">So if you're looking for a programmer with 
+                                    discipline, creativity, and killer abs - you've found me!</p>
                             </div> <!-- end of personal description div -->
                         </div> <!-- end of right side column div -->
 
@@ -87,54 +88,115 @@
                 <!-- banner section -->
                 <section id="banner-sctn" class="section">
 
-                <h1 class="section-heading">Skills</h1>
-                <div class="section-content">
+                    <h1 class="section-heading">Skills</h1>
+                    <div class="section-content">
 
-                    <div class="skills-pair">
-                        <h5 class="skills-label">Web Development:</h5>
+                        <!-- frontend skills list -->
+                        <div class="skills-pair">
+                            <h5 class="skills-label">Frontend Development:</h5>
                             <ul class="skills-list">
                                 <li>HTML</li>
                                 <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>PrimeReact</li>
                                 <li>Bootstrap</li>
                                 <li>AJAX</li>
+                            </ul>
+                        </div>
+
+                        <!-- backend skills list -->
+                        <div class="skills-pair">
+                            <h5 class="skills-label">Backend Development:</h5>
+                            <ul class="skills-list">
                                 <li>PHP</li>
-                                <li>JavaScript</li>
                                 <li>MySQL</li>
                             </ul>
-                    </div>
+                        </div>
 
-                    <div class="skills-pair">
-                        <h5 class="skills-label">Programming Languages:</h5>
-                             <ul class="skills-list">
+                        <!-- programming languages skills list -->
+                        <div class="skills-pair">
+                            <h5 class="skills-label">Programming Languages:</h5>
+                            <ul class="skills-list">
                                 <li>Java</li>
                                 <li>Python</li>
                                 <li>C/C++</li>
-                                <li>SQL</li>
                             </ul>
-                    </div>
+                        </div>
 
-                    <div class="skills-pair">
-                        <h5 class="skills-label">Databases:</h5>
-                            <ul class="skills-list">
-                                <li>MySQL</li>
-                            </ul>
-                    </div>
-
-                    <div class="skills-pair">
-                        <h5 class="skills-label">Version Control:</h5>
+                        <!-- version control skills list -->
+                        <div class="skills-pair">
+                            <h5 class="skills-label">Version Control:</h5>
                             <ul class="skills-list">
                                 <li>Git</li>
                                 <li>GitHub</li>
                             </ul>
-                    </div>
+                        </div>
 
-                </div> <!-- end of section content div -->
+                    </div> <!-- end of section content div -->
                 
                 </section> <!-- end of banner section -->
 
                 <!-- projects section -->
                 <section id="projects-sctn" class="section">
-                    <h1>Projects</h1>
+
+                    <h1 class="section-heading">Projects</h1>
+                    <!-- projects grid -->
+                    <div id="projects-grid" class="section-content">
+
+                        <!-- project 1: portfolio website card -->
+                        <div class="project-card">
+                            <img src="images/card_img_placeholder.png" alt="Card Image" class="card-img">
+                            <div class="card-content-container">
+                                <h4 class="project-title">Portfolio Website</h4>
+
+                                <div class="project-tech">
+                                    <span class="tech-label">HTML</span>
+                                    <span class="tech-label">CSS</span>
+                                    <span class="tech-label">JavaScript</span>
+                                    <span class="tech-label">PHP</span>
+                                </div>
+                                <p class="project-description">Portfolio website showcasing skills as a fullstack developer.</p>
+                            </div>
+                            <div class="card-button-container">
+                                <a href="https://github.com/ramona-xxii/portfolio-web-project" target="_blank" class="card-link">View on GitHub</a>
+                            </div>
+                        </div>
+
+                        <!-- project 2 card -->
+                        <div class="project-card">
+                            <img src="images/card_img_placeholder.png" alt="Card Image" class="card-img">
+                            <div class="card-content-container">
+                                <h4 class="project-title">Project 2</h4>
+
+                                <div class="project-tech">
+                                    <span class="tech-label">HTML</span>
+                                    <span class="tech-label">CSS</span>
+                                </div>
+                                <p class="project-description">This is a project.</p>
+                            </div>
+                            <div class="card-button-container">
+                                <a href="." target="_blank" class="card-link">View on GitHub</a>
+                            </div>
+                        </div>
+
+                        <!-- project 3 card -->
+                         <div class="project-card">
+                            <img src="images/card_img_placeholder.png" alt="Card Image" class="card-img">
+                            <div class="card-content-container">
+                                <h4 class="project-title">Tic Tac Toe</h4>
+
+                                <div class="project-tech">
+                                    <span class="tech-label">C</span>
+                                    <span class="tech-label">CL</span>
+                                </div>
+                                <p class="project-description">Tic Tac Toe game using the command line interface and C programming language. Player plays against the computer.</p>
+                            </div>
+                            <div class="card-button-container">
+                                <a href="." target="_blank" class="card-link">View on GitHub</a>
+                            </div>
+                        </div>
+
+                    </div>
                 </section> <!-- end of projects section -->
 
                 <!-- contact section -->
