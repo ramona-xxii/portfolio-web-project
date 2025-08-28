@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     </head>
     <body>
         <main>
@@ -150,10 +152,10 @@
                                 <h4 class="project-title">Portfolio Website</h4>
 
                                 <div class="project-tech">
-                                    <span class="tech-label">HTML</span>
-                                    <span class="tech-label">CSS</span>
-                                    <span class="tech-label">JavaScript</span>
-                                    <span class="tech-label">PHP</span>
+                                    <span class="tech-label"><i class="fa-brands fa-html5"></i> HTML</span>
+                                    <span class="tech-label"><i class="fa-brands fa-css3"></i> CSS</span>
+                                    <span class="tech-label"><i class="fa-brands fa-js"></i> JavaScript</span>
+                                    <span class="tech-label"><i class="fa-brands fa-php"></i> PHP</span>
                                 </div>
                                 <p class="project-description">Portfolio website showcasing skills as a fullstack developer.</p>
                             </div>
@@ -169,8 +171,8 @@
                                 <h4 class="project-title">Tic Tac Toe</h4>
 
                                 <div class="project-tech">
-                                    <span class="tech-label">C</span>
-                                    <span class="tech-label">CL</span>
+                                    <span class="tech-label"><i class="fa-solid fa-c"></i> Lang</span>
+                                    <span class="tech-label"><i class="fa-solid fa-terminal"></i> CL</span>
                                 </div>
                                 <p class="project-description">Tic Tac Toe game using the command line interface and C programming language. Player plays against the computer.</p>
                             </div>
@@ -186,7 +188,7 @@
                                 <h4 class="project-title">Palindrome Tester</h4>
 
                                 <div class="project-tech">
-                                    <span class="tech-label">PHP</span>
+                                    <span class="tech-label"><i class="fa-brands fa-php"></i> PHP</span>
                                 </div>
                                 <p class="project-description">Web app that determines wether user entered word is a palindrome.</p>
                             </div>
