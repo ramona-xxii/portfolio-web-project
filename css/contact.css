@@ -2,13 +2,13 @@
 /* contact section */
 /*-----------------*/
 #contact-heading {
-  color: #efe9e9;
+  color: #1e1e1f;
 }
 
 #contact-subtitle {
   line-height: 1.2;
   padding-bottom: 1rem;
-  color: #efe9e9;
+  color: #1e1e1f;
 }
 
 /*------*/
@@ -22,7 +22,13 @@
   padding: 1rem 2.5rem;
   margin-top: 1rem;
   border-radius: 8px;
-  background-color: #2a2a2b;
+  /* glassmorphism effect */
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.7px);
+  -webkit-backdrop-filter: blur(5.7px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .input-group {
@@ -57,7 +63,7 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-  color: #efe9e9;
+  color: #1e1e1f;
   min-width: 1.5rem;
 }
 
