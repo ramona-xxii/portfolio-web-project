@@ -19,9 +19,8 @@
   gap: 1rem;
 }
 
-#landing-text h1,
 #landing-text h2 {
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 #landing-text h1 {
