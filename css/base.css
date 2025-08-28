@@ -71,6 +71,11 @@ body {
   background-color: #efe9e9;
   color:#1e1e1f;
   font-family: "Poppins", sans-serif;
+  background-image: url("../images/holo.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*----------------*/
@@ -86,13 +91,13 @@ body {
 .section {
   scroll-margin-top: 6.875rem;
   height: fit-content;
+  padding: 2rem 0;
 }
 
 .section-heading {
-  padding: 1.5rem 0;
+  margin-bottom: 1.75rem;
 }
 
 .section-content {
-  padding-bottom: 1rem;
   padding-left: 3.5rem;
 }
