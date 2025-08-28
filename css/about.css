@@ -43,6 +43,17 @@
 /*------------*/
 /* right side */
 /*------------*/
+#right-abt-col {
+  padding: 1rem 1.5rem;
+  /* glassmorphism effect */
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.7px);
+  -webkit-backdrop-filter: blur(5.7px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 .about-paragraph {
   line-height: 1.5;
   text-align: justify;
