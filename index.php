@@ -162,24 +162,7 @@
                             </div>
                         </div>
 
-                        <!-- project 2 card -->
-                        <div class="project-card">
-                            <img src="images/card_img_placeholder.png" alt="Card Image" class="card-img">
-                            <div class="card-content-container">
-                                <h4 class="project-title">Project 2</h4>
-
-                                <div class="project-tech">
-                                    <span class="tech-label">HTML</span>
-                                    <span class="tech-label">CSS</span>
-                                </div>
-                                <p class="project-description">This is a project.</p>
-                            </div>
-                            <div class="card-button-container">
-                                <a href="." target="_blank" class="card-link">View on GitHub</a>
-                            </div>
-                        </div>
-
-                        <!-- project 3 card -->
+                        <!-- project 2: tic tac toe card -->
                          <div class="project-card">
                             <img src="images/tictactoe-screenshot.png" alt="Card Image" class="card-img">
                             <div class="card-content-container">
@@ -192,7 +175,23 @@
                                 <p class="project-description">Tic Tac Toe game using the command line interface and C programming language. Player plays against the computer.</p>
                             </div>
                             <div class="card-button-container">
-                                <a href="." target="_blank" class="card-link">View on GitHub</a>
+                                <a href="https://github.com/ramona-xxii/tic-tac-toe-c" target="_blank" class="card-link">View on GitHub</a>
+                            </div>
+                        </div>
+
+                        <!-- project 3: palindrome tester card -->
+                         <div class="project-card">
+                            <img src="images/palindrome-screenshot.png" alt="Card Image" class="card-img">
+                            <div class="card-content-container">
+                                <h4 class="project-title">Palindrome Tester</h4>
+
+                                <div class="project-tech">
+                                    <span class="tech-label">PHP</span>
+                                </div>
+                                <p class="project-description">Web app that determines wether user entered word is a palindrome.</p>
+                            </div>
+                            <div class="card-button-container">
+                                <a href="https://github.com/ramona-xxii/palindrome-tester-web-app" target="_blank" class="card-link">View on GitHub</a>
                             </div>
                         </div>
 
