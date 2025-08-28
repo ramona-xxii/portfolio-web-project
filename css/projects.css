@@ -1,0 +1,94 @@
+/*------*/
+/* grid */
+/*------*/
+#projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.75rem;
+}
+
+/*------*/
+/* card */
+/*------*/
+.project-card {
+    max-width: 20rem;
+    margin: 0 auto;
+    border: 1px solid #2a2a2b;
+    border-radius: 8px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+    overflow: hidden;
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*--------------*/
+/* card content */
+/*--------------*/
+.project-title {
+    padding-top: 0.5rem;
+}
+
+.card-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+}
+
+.project-description {
+    line-height: 1.2;
+}
+
+/*------------*/
+/* card image */
+/*------------*/
+.card-img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/*------------*/
+/* tech label */
+/*------------*/
+.project-tech {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.tech-label {
+    font-size: 0.75rem;
+    border: 1px solid #2a2a2b;
+    border-radius: 8px;
+    padding: 0.05rem 0.25rem;
+}
+
+/*------------------*/
+/* card link button */
+/*------------------*/
+.card-button-container {
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.card-link {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    color: #2a2a2b;
+    text-decoration: none;
+    border: 2px solid #2a2a2b;
+    border-radius: 8px;
+    border-style: solid;
+}

@@ -1,11 +1,19 @@
 /*-----------------*/
 /* contact section */
 /*-----------------*/
+#contact-heading {
+  color: #efe9e9;
+}
+
 #contact-subtitle {
   line-height: 1.2;
   padding-bottom: 1rem;
+  color: #efe9e9;
 }
 
+/*------*/
+/* form */
+/*------*/
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -61,6 +69,9 @@
   padding-top: 0.25rem;
 }
 
+/*-------------*/
+/* send button */
+/*-------------*/
 #form-btn-container {
   display: flex;
   justify-content: center;

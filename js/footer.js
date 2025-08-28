@@ -1,3 +1,4 @@
+// display current year for copyright
 document.addEventListener("DOMContentLoaded", function () {
   const yearSpan = document.getElementById("year");
   if (yearSpan) {

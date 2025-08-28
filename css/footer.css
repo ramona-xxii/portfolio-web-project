@@ -4,11 +4,14 @@
 footer {
   margin-top: 2rem;
   background-color: #2a2a2b;
+  color: #efe9e9;
 }
 
 .footer-content {
   display: flex;
-  padding: 2.5rem;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 #footer-left,
@@ -49,6 +52,10 @@ footer {
 .footer-icon-group {
   display: flex;
   gap: 1rem;
+}
+
+.footer-icon {
+  color: #efe9e9;;
 }
 
 /*--------*/
