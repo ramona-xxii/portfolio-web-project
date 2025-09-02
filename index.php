@@ -2,11 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Ramona | Portfolio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -14,18 +16,23 @@
     <body>
         <main>
 
-            <!-- navigation --> 
-            <nav class="topnav">
-                <!-- brand -->
-                <a class="brand" href="#">RAMONA</a>
-                <!-- nav items -->
-                 <div class="nav-items">
-                    <a href="#about-sctn" class="nav-link">ABOUT ME</a>
-                    <a href="#banner-sctn" class="nav-link">SKILLS</a>
-                    <a href="#projects-sctn" class="nav-link">PROJECTS</a>
-                    <a href="#contact-sctn" class="nav-link">CONTACT</a>
-                 </div>
-            </nav>
+        <!-- bootstrap navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">RAMONA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#about-sctn">ABOUT ME</a>
+                        <a class="nav-link" href="#banner-sctn">SKILLS</a>
+                        <a class="nav-link" href="#projects-sctn">PROJECTS</a>
+                        <a class="nav-link" href="#contact-sctn">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
             
             <!-- content -->
             <div class="site-content">
@@ -273,6 +280,7 @@
         <!-- javascript file linking -->
         <script src="js/contact.js"></script>
         <script src="js/footer.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
     
 </html>
