@@ -19,12 +19,13 @@
   gap: 1rem;
 }
 
-#landing-text h2 {
-  line-height: 1.5;
+#landing-text h1 {
+  font-weight: 500;
+  font-size: clamp(2rem, 5vw, 4rem);
 }
 
-#landing-text h1 {
-  font-weight: 600;
+#landing-text h2 {
+  line-height: 1.5;
 }
 
 #landing-icon-group {
