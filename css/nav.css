@@ -1,52 +1,21 @@
 /*----------------*/
 /* navigation bar */
 /*----------------*/
-.topnav {
-  display: flex;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  /* glassmorphism effect */
-  background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(9.4px);
-  -webkit-backdrop-filter: blur(9.4px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
 
 /*-------*/
 /* brand */
 /*-------*/
-.brand {
+.navbar-brand {
   color: #1e1e1f;
   font-size: 1.25rem;
-  text-decoration: none;
-  padding: 2rem 0;
+  padding: 1rem 0;
   margin: 0 2rem;
 }
 
 /*-------*/
 /* links */
 /*-------*/
-.nav-items {
-  font-size: 1.25rem;
-  display: flex;
-  margin-left: auto; /* pushes items right */
-}
-
 .nav-link {
-  color: #1e1e1f;
-  display: inline-block;
-  padding: 1rem 0;
-  margin: 0 2rem;
-  text-decoration: none;
-}
-
-.nav-link:hover {
-  color: #c2cdff;
-}
-
-.nav-link:active {
-  color: #92a5ff;
+  margin: 0 1rem;
+  font-size: 1rem;
 }
