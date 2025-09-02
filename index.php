@@ -41,8 +41,8 @@
                 <section id="landing-sctn">
 
                     <div id="landing-text">
-                        <h1>Hi, I'm Ramona!</h1>
-                        <h2>Computer Science Student. Aspiring Web Developer. Welcome to my site, stay & explore!</h2>
+                        <h1>Hi, I'm Ramona_</h1>
+                        <h2>Computer Science Student. Aspiring Web Developer. Welcome to my digital portfolio.</h2>
                     </div>
                     <div id="landing-icon-group">
                         <a href="https://github.com/ramona-xxii" target="_blank">
@@ -159,10 +159,10 @@
                                 <h4 class="project-title">Portfolio Website</h4>
 
                                 <div class="project-tech">
-                                    <span class="tech-label"><i class="fa-brands fa-html5"></i> HTML</span>
-                                    <span class="tech-label"><i class="fa-brands fa-css3"></i> CSS</span>
-                                    <span class="tech-label"><i class="fa-brands fa-js"></i> JavaScript</span>
-                                    <span class="tech-label"><i class="fa-brands fa-php"></i> PHP</span>
+                                    <span class="tech-label"><i class="fa-brands fa-html5 tech-icon"></i> HTML</span>
+                                    <span class="tech-label"><i class="fa-brands fa-css3 tech-icon"></i> CSS</span>
+                                    <span class="tech-label"><i class="fa-brands fa-js tech-icon"></i> JavaScript</span>
+                                    <span class="tech-label"><i class="fa-brands fa-php tech-icon2"></i> PHP</span>
                                 </div>
                                 <p class="project-description">Portfolio website showcasing skills as a fullstack developer.</p>
                             </div>
@@ -178,10 +178,10 @@
                                 <h4 class="project-title">Tic Tac Toe</h4>
 
                                 <div class="project-tech">
-                                    <span class="tech-label"><i class="fa-solid fa-c"></i> Lang</span>
-                                    <span class="tech-label"><i class="fa-solid fa-terminal"></i> CL</span>
+                                    <span class="tech-label"><i class="fa-solid fa-c tech-icon"></i> Lang</span>
+                                    <span class="tech-label"><i class="fa-solid fa-terminal tech-icon"></i> CL</span>
                                 </div>
-                                <p class="project-description">Tic Tac Toe game using the command line interface and C programming language. Player plays against the computer.</p>
+                                <p class="project-description">Tic Tac Toe game using the command line interface and C programming language.</p>
                             </div>
                             <div class="card-button-container">
                                 <a href="https://github.com/ramona-xxii/tic-tac-toe-c" target="_blank" class="card-link">View on GitHub</a>
@@ -195,7 +195,7 @@
                                 <h4 class="project-title">Palindrome Tester</h4>
 
                                 <div class="project-tech">
-                                    <span class="tech-label"><i class="fa-brands fa-php"></i> PHP</span>
+                                    <span class="tech-label"><i class="fa-brands fa-php tech-icon2"></i> PHP</span>
                                 </div>
                                 <p class="project-description">Web app that determines wether user entered word is a palindrome.</p>
                             </div>
