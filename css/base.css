@@ -47,12 +47,12 @@ h5 {
 }
 
 h6 {
-  font-size: clamp(0.875rem, 2vw, 1rem);
+  font-size: 1rem;
 }
 
 /* Paragraphs */
 p {
-  font-size: clamp(0.875rem, 2vw, 1rem);
+  font-size: 1rem;
 }
 
 /*--------------------*/
@@ -104,8 +104,8 @@ body {
 /*    content     */
 /*----------------*/
 .site-content {
-  padding: 0 6rem;
-  max-width: 1200px; /* set site-wide max width */
+  padding: 0 clamp(1rem, 5vw, 6rem);
+  max-width: 1300px; /* set site-wide max width */
   margin: 0 auto; /* keep content centered on XL screens*/
 }
 
@@ -113,7 +113,7 @@ body {
 /* sections */
 /*----------*/
 .section {
-  scroll-margin-top: 6.875rem;
+  scroll-margin-top: 6rem;
   height: fit-content;
   padding: 2rem 0;
 }
@@ -125,4 +125,11 @@ body {
 
 .section-content {
   padding-left: 3.5rem;
+}
+
+/* mobile styling */
+@media screen and (max-width: 768px) {
+  .section-content {
+    padding-left: 0;
+  }
 }
