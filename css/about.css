@@ -4,8 +4,22 @@
 #about-content {
   display: flex;
   flex-direction: row;
-  align-items: flex-end; /* align both cols to bottom */
   gap: 5rem;
+}
+
+/* mobile display */
+@media screen and (max-width: 992px) {
+  #about-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  #left-abt-col,
+  #right-abt-col {
+    width: 100%; 
+    text-align: center;
+  }
 }
 
 /*-----------*/
@@ -15,14 +29,15 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .about-photo {
-  width: 300px;
-  height: 300px;
   border-radius: 50%;
   overflow: hidden;
+  /* responsive */
+  width: clamp(150px, 25vw, 300px);
+  height: auto;
 }
 
 #name-tag {
@@ -43,6 +58,7 @@
 .edu {
   line-height: 1.5;
   vertical-align: middle;
+  white-space: nowrap;
 }
 
 /*------------*/
