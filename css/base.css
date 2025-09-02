@@ -84,6 +84,8 @@ body {
 /*----------------*/
 .site-content {
   padding: 0 6rem;
+  max-width: 1200px; /* set site-wide max width */
+  margin: 0 auto; /* keep content centered on XL screens*/
 }
 
 /*----------*/
