@@ -33,22 +33,25 @@
 .input-group {
   display: flex;
   align-items: center; /* vertically center items */
+  gap: 1rem;
+}
+
+.input-group input, 
+.input-group textarea {
+  flex: auto;
+  border: 2px solid transparent !important; 
+  outline: none;
+  font-size: 1rem;
+  padding: 0.75rem;
+  font-family: inherit;
+  border-radius: 8px !important;
 }
 
 .input-group input:focus,
 .input-group textarea:focus {
   border: 2px solid #92a5ff;
   box-shadow: 0 0 5px #92a5ff;
-}
-
-.input-group input, 
-.input-group textarea {
-  flex: 1;
-  border: 2px solid #1e1e1f;
-  font-size: 1rem;
-  outline: none;
-  padding: 1rem;
-  font-family: inherit;
+  border-radius: 8px !important;
 }
 
 .input-group textarea {
@@ -58,11 +61,7 @@
 
 .form-icon {
   font-size: 2rem;
-  min-width: 1.5rem;
-  display: flex;
-  align-items: center;
   color: #1e1e1f;
-  padding-right: 0.5rem;
 }
 
 .textarea-group {
