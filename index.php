@@ -211,7 +211,7 @@
                 <section id="contact-sctn" class="section">
                     
                     <!-- contact form -->
-                        <form action="contact.php" method="post" class="contact-form">
+                        <form id="contact-me-form" action="contact.php" method="post" class="contact-form">
                             <h1 id="contact-heading">Get In Touch!</h1>
                             <p id="contact-subtitle">Please fill out the form below and I'll get back to you ASAP</p>
                             <!-- name input -->
