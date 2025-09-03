@@ -14,6 +14,6 @@ This mobile-friendly website was built to prove my skills, experience, projects,
 - Clean & modern UI
 
 ## Technologies Used
-**Frontend:** HTML5, CSS3, Bootsrap5, JavaScript
-**Backend:** PHP
+**Frontend:** HTML5, CSS3, Bootsrap5, JavaScript.  
+**Backend:** PHP. 
 **Version Control:** Git, GitHub
