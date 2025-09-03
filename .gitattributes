@@ -1,0 +1,5 @@
+# Force GitHub to treat PHP files as PHP (not Hack)
+*.php linguist-language=PHP
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+*.html linguist-language=HTML
