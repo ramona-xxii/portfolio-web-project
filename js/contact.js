@@ -1,18 +1,36 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    const form = document.getElementById("contact-me-form");
+    const form = document.getElementById("contact-me-form"); // get form by ID from html
     const phoneInput = document.getElementById("phonenumber");
 
     //---------------
     // FORM HANDLING
     //---------------
     if(form) {
-        form.addEventListener("submit", function(event) {
+        form.addEventListener("submit", async function(event) {
             event.preventDefault(); // prevent default form submission
 
-            const formData = new FormData(form);
+            const formData = new FormData(form); //FormData() --> automatically collects all form field values from 'form'
             
-        })
+            try{
+                const response = await fetch("contact.php", {
+                    method: "POST",
+                    body: formData
+                });
+
+                const result = await response.json(); // parse json from php
+
+                const responseBox = document.getElementById("form-response");
+                responseBox.innerHTML = result.message;
+
+                if(result.success){
+                    form.reset(); // clear form after send
+                }
+            } catch (error) {
+                console.error("Error: ", error);
+            }
+        });
+
     }
 
     //-------------------------
