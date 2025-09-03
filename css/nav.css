@@ -12,6 +12,11 @@
   margin: 0 2rem;
 }
 
+#navbar-logo {
+  height: 2rem;
+  width: auto;
+}
+
 /*-------*/
 /* links */
 /*-------*/
