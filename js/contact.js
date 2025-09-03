@@ -1,6 +1,23 @@
 document.addEventListener("DOMContentLoaded", function() {
+
+    const form = document.getElementById("contact-me-form");
     const phoneInput = document.getElementById("phonenumber");
 
+    //---------------
+    // FORM HANDLING
+    //---------------
+    if(form) {
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); // prevent default form submission
+
+            const formData = new FormData(form);
+            
+        })
+    }
+
+    //-------------------------
+    // PHONE NUMBER FORMATTING
+    //-------------------------
     // check if anything in the phone number field first
     if(phoneInput){
         // only allow digits while typing
