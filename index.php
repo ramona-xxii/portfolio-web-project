@@ -240,6 +240,8 @@
                             </div>
                             
                         </form>
+
+                        <div id="form-response" style="display: none;"></div>
                     
                 </section> <!-- end of contact section -->
 
