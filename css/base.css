@@ -17,7 +17,16 @@ html {
 /*------------------------*/
 /*  Font default setting  */
 /*------------------------*/
-h1, h2, h3, h4, h5, h6, p {
+h1 {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  line-height: 1;
+  color: #1e1e1f;
+}
+
+h2, h3, h4, h5, h6, p {
   font-family: "Poppins", sans-serif;
   margin: 0;
   line-height: 1;
@@ -26,41 +35,20 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Responsive Font Sizes */
-h1 {
-  font-size: clamp(2rem, 5vw, 3rem);
-}
-
-h2 {
-  font-size: clamp(1.5rem, 4vw, 2rem);
-}
-
-h3 {
-  font-size: clamp(1.25rem, 3.5vw, 1.75rem);
-}
-
-h4 {
-  font-size: clamp(1.125rem, 3vw, 1.5rem);
-}
-
-h5 {
-  font-size: clamp(1rem, 2.5vw, 1.25rem);
-}
-
-h6 {
-  font-size: 1rem;
-}
-
-/* Paragraphs */
-p {
-  font-size: 1rem;
-}
+h1 { font-size: clamp(2rem, 5vw, 3rem); }
+h2 { font-size: clamp(1.5rem, 4vw, 2rem); }
+h3 { font-size: clamp(1.25rem, 3.5vw, 1.75rem); }
+h4 { font-size: clamp(1.125rem, 3vw, 1.5rem);}
+h5 { font-size: clamp(1rem, 2.5vw, 1.25rem); }
+h6 { font-size: 1rem; }
+p { font-size: 1rem; }
 
 /*--------------------*/
 /* base button styles */
 /*--------------------*/
 button {
   display: inline-block;
-  color: #2a2a2b;
+  color: #1e1e1f;
   cursor: pointer;
   border: 2px solid transparent;
   border-radius: 8px;
@@ -80,7 +68,7 @@ button {
   width: 2rem;
   height: 2rem;
   font-size: 1.75rem;
-  color:#2a2a2b;
+  color: #1e1e1f;
   text-decoration: none;
   vertical-align: middle;
   line-height: 1;
