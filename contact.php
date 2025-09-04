@@ -35,7 +35,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
     if(!empty($error_message)){
         echo json_encode([
             "success" => false,
-            "message" => nl2br($error_message)
+            "message" => trim($error_message) // sends $error_message as 'message' to contact.js
         ]);
         exit; // stop execution so email isn't sent
     }
