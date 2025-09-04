@@ -49,8 +49,8 @@
 
 .input-group input:focus,
 .input-group textarea:focus {
-  border: 2px solid #92a5ff;
-  box-shadow: 0 0 5px #92a5ff;
+  border: 2px solid #1e1e1f;
+  box-shadow: 0 0 5px #1e1e1f;
   border-radius: 8px !important;
 }
 
@@ -70,6 +70,14 @@
 
 .mssg-icon {
   padding-top: 0.25rem;
+}
+
+/*------------*/
+/* form error */
+/*------------*/
+.error {
+  border: 2px solid red !important;
+  border-radius: 8px !important;
 }
 
 /*-------------*/
