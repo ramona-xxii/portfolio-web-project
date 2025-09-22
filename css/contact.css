@@ -1,6 +1,12 @@
 /*-----------------*/
 /* contact section */
 /*-----------------*/
+#contact-sctn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 #contact-heading {
   color: #1e1e1f;
 }
