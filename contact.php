@@ -3,6 +3,17 @@ header("Content-Type: application/json"); // tell browser its receiving json
 
 if($_SERVER["REQUEST_METHOD"] === "POST"){
 
+    $name = $_POST['name'] ?? ''; // use '' if undefined/missing value --> use instead of isset()
+
+    //---------------------
+    // SECURE FORM HANDLING
+    //---------------------
+    function SanitizeName($rawName, $maxLength = 30){
+        // 1. trim whitespace
+        $name = trim($rawName);
+
+    }
+
     //----------------------
     // SANITIZE FORM INPUTS
     //----------------------
@@ -43,7 +54,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
     //------------
     // EMAIL DATA
     //------------
-    $to = "ramona.mcbrearty@gmail.com";
+    $to = "testeremail@email.com"; // fix later
     $subject = "Contact Form Submission";
     $body = "Name: $name\nEmail: $email\nPhone: $phonenumber\nMessage: $message\n";
     $headers = "From: $email\r\nReply-To: $email";
