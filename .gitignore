@@ -1,2 +1,4 @@
 .DS_Store
 index.php
+.env
+repo-backup.git
