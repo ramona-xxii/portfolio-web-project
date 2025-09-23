@@ -11,10 +11,11 @@ This mobile-friendly website was built to prove my skills, experience, projects,
 
 ## Key Features
 - Responsive & mobile friendly design
-- Contact form with both client-side & server-side validation
 - Clean & modern UI
+- Contact form with both client-side & server-side validation
+- Basic cybersecurity measures to prevent XSS attacks
 
 ## Technologies Used
-**Frontend:** HTML5, CSS3, Bootsrap5, JavaScript  
+**Frontend:** HTML5, CSS3, Bootstrap5, JavaScript  
 **Backend:** PHP   
 **Version Control:** Git, GitHub
