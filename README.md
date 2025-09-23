@@ -7,7 +7,7 @@ This mobile-friendly website was built to prove my skills, experience, projects,
 - **'About Me'** section: more in-depth personal description of my background & experience
 - **'Skills'** section: simple list of my skills organized by category
 - **'Projects'** section: various programming prjects I've built
-- **'Contact'** section: form to get in toucvh with me   
+- **'Contact'** section: form to get in touch with me   
 
 ## Key Features
 - Responsive & mobile friendly design
